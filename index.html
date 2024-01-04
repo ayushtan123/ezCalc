@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ezCalc</title>
+    <link rel="icon" href="favicon.png" type="image/png">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container">
+        <div id="calculator">
+
+            <input id="display">
+            <div id="keys">
+
+                <button onclick="appendToDisplay('7'); Sound();">7</button>
+                <button onclick="appendToDisplay('8'); Sound();">8</button>
+                <button onclick="appendToDisplay('9'); Sound();">9</button>
+                <button class="symbol" onclick="appendToDisplay('/'); Sound();">÷</button>
+
+                <button onclick="appendToDisplay('4'); Sound();">4</button>
+                <button onclick="appendToDisplay('5'); Sound();">5</button>
+                <button onclick="appendToDisplay('6'); Sound();">6</button>
+                <button class="symbol" onclick="appendToDisplay('*'); Sound();">×</button>
+
+                <button onclick="appendToDisplay('1'); Sound();">1</button>
+                <button onclick="appendToDisplay('2'); Sound();">2</button>
+                <button onclick="appendToDisplay('3'); Sound();">3</button>
+                <button class="symbol" onclick="appendToDisplay('-'); Sound();">-</button>
+
+                <button style="background-color: #365486;" onclick="calculate()">=</button>
+                <button onclick="appendToDisplay('0'); Sound();">0</button>
+                <button onclick="appendToDisplay('.'); Sound();">.</button>
+                <button class="symbol" onclick="appendToDisplay('+'); Sound();">+</button>
+
+                <button style="background-color: #8F1D14;" onclick="clearDisplay(); s2();">AC</button>
+                <button onclick="appendToDisplay('('); Sound();">(</button>
+                <button onclick="appendToDisplay(')'); Sound();">)</button>
+
+                <input class="me" type="button" onclick="location.href='https://www.linkedin.com/in/ayushtan123/';"
+                    value="🧑‍💻">
+            </div>
+        </div>
+
+        <div class="details" onmouseover="changeText()" onmouseout="restoreText()">
+            <h1 id="cool">Calculator using JavaScript</h1>
+            <h3 onclick="s2();">Click Me!</h3>
+
+            <input class="github" type="button" onclick="location.href='https://github.com/ayushtan123';"
+                value="Github">
+        </div>
+
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
