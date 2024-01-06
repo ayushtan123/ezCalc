@@ -17,4 +17,6 @@ https://github.com/ayushtan123/ezCalc/assets/121681555/66757e99-4931-4b66-b20a-e
 
 ![image](https://github.com/ayushtan123/ezCalc/assets/121681555/4feb5d17-c243-4ad6-8582-bae650aa4e5c)
 
+The app is equipped with error handling and helps to perform all arithmetic operations. 
+
 
